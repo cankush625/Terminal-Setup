@@ -80,7 +80,9 @@
             "branch_icon": "",
             "fetch_stash_count": true,
             "fetch_status": false,
-            "fetch_upstream_icon": true
+            "fetch_upstream_icon": true,
+            // Max char length for a branch name
+            "branch_max_length": 30
           },
           "background": "p:salmon",
           "foreground": "p:black",
@@ -92,7 +94,7 @@
           "type": "node",
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
-          "template": " {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} ",
+          "template": " {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }} ",
           "background": "p:sky",
           "foreground": "p:black",
           "Text": "",
@@ -103,7 +105,7 @@
           "type": "python",
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
-          "template": " {{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }} ",
+          "template": " {{ if .Venv }}{{ .Venv }} {{ end }} ",
           "background": "p:sky",
           "foreground": "p:black",
           "Text": "",
