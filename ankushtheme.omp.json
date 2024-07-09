@@ -75,7 +75,7 @@
           "type": "git",
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
-          "template": " ({{ .HEAD }}{{ if gt .StashCount 0 }} {{ .StashCount }}{{ end }}) ",
+          "template": " {{ .HEAD }} ",
           "properties": {
             "branch_icon": "",
             "fetch_stash_count": true,
