@@ -22,4 +22,3 @@ $ brew install jandedobbeleer/oh-my-posh/oh-my-posh
 ```
 $ cp ankushtheme.omp.json ~/ankushtheme.omp.json
 ```
-
