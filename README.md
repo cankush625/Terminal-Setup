@@ -18,7 +18,7 @@ $ cp .bash_profile ~/.bash_profile
 $ brew install jandedobbeleer/oh-my-posh/oh-my-posh
 ```
 
-## Place my custom terminal theme at required place and make sure it is used in .zshrc
+## Place the custom terminal theme at required place and make sure it is used in .zshrc
 ```
 $ cp ankushtheme.omp.json ~/ankushtheme.omp.json
 ```
