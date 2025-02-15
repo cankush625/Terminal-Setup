@@ -13,6 +13,12 @@ $ cp .zshrc ~/.zshrc
 $ cp .bash_profile ~/.bash_profile
 ```
 
+## Make sure brew is correctly configured and added to .zprofile
+```
+$ (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/ankushchavan/.zprofile
+$ eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
 ## Install Oh My Posh
 ```
 $ brew install jandedobbeleer/oh-my-posh/oh-my-posh
