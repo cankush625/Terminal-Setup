@@ -28,3 +28,18 @@ $ brew install jandedobbeleer/oh-my-posh/oh-my-posh
 ```
 $ cp ankushtheme.omp.json ~/ankushtheme.omp.json
 ```
+
+## Change the prompt
+### Find the shell
+```
+$ oh-my-posh get shell
+```
+
+### For ZSH shell
+```
+$ eval "$(oh-my-posh init zsh)"
+$ exec zsh
+```
+
+### Note:
+If you are using warp then make sure to change the terminal promt from the warp's appearance settings
