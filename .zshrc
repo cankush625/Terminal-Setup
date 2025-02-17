@@ -104,3 +104,6 @@ source $ZSH/oh-my-zsh.sh
 eval "$(oh-my-posh init zsh --config ~/ankushtheme.omp.json)"
 
 source ~/.bash_profile;
+
+# For GNU PG keysign for Git Commits
+export GPG_TTY=$(tty)
