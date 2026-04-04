@@ -43,3 +43,19 @@ $ exec zsh
 
 ### Note:
 If you are using warp then make sure to change the terminal promt from the warp's appearance settings
+
+## Enable command autosuggestions in ZSH
+### Install ZSH autosuggestions
+```
+$ brew install zsh-autosuggestions
+```
+
+### Add below lines to enable it in .zshrc
+```
+source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+```
+
+## File Manager for Terminal
+```
+$ brew install yazi --HEAD
+```
