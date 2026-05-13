@@ -59,3 +59,8 @@ source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 ```
 $ brew install yazi --HEAD
 ```
+
+## Git UI in Terminal
+```
+$ brew install lazygit
+```
